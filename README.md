@@ -10,7 +10,7 @@
   <img alt="Type" src="https://img.shields.io/badge/Type-Theme%20%2B%20Userscript-111827?style=for-the-badge">
   <img alt="CSS" src="https://img.shields.io/badge/CSS-Dark%20Widescreen-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="Userscript" src="https://img.shields.io/badge/Userscript-Enriched%20Tools-6E40C9?style=for-the-badge">
-  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitLab%20Pages-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
   <img alt="Licence" src="https://img.shields.io/badge/Licence-MIT-22C55E?style=for-the-badge">
 </p>
 
@@ -27,8 +27,8 @@ whole set or only the parts you want.
 
 | Asset | URL |
 |---|---|
-| Stylesheet | `https://wheresthetvremote-75b3ea.gitlab.io/WheresTheTVRemote.css` |
-| Userscript | `https://wheresthetvremote-75b3ea.gitlab.io/WheresTheTVRemote.user.js` |
+| Stylesheet | `https://Im-That-Guy-16.github.io/wheresthetvremote/WheresTheTVRemote.css` |
+| Userscript | `https://Im-That-Guy-16.github.io/wheresthetvremote/WheresTheTVRemote.user.js` |
 
 ## Install
 

@@ -6,8 +6,8 @@
 // @author       Prism16
 // @match        *://broadcasthe.net/*
 // @match        *://www.broadcasthe.net/*
-// @updateURL    https://wheresthetvremote-75b3ea.gitlab.io/WheresTheTVRemote.user.js
-// @downloadURL  https://wheresthetvremote-75b3ea.gitlab.io/WheresTheTVRemote.user.js
+// @updateURL    https://Im-That-Guy-16.github.io/wheresthetvremote/WheresTheTVRemote.user.js
+// @downloadURL  https://Im-That-Guy-16.github.io/wheresthetvremote/WheresTheTVRemote.user.js
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue

@@ -8,15 +8,15 @@
 /* ---------- Self-hosted type ---------- */
 @font-face{
   font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;
-  src:url('https://wheresthetvremote-75b3ea.gitlab.io/fonts/inter.woff2') format('woff2');
+  src:url('https://Im-That-Guy-16.github.io/wheresthetvremote/fonts/inter.woff2') format('woff2');
 }
 @font-face{
   font-family:'Space Grotesk';font-style:normal;font-weight:300 700;font-display:swap;
-  src:url('https://wheresthetvremote-75b3ea.gitlab.io/fonts/space-grotesk.woff2') format('woff2');
+  src:url('https://Im-That-Guy-16.github.io/wheresthetvremote/fonts/space-grotesk.woff2') format('woff2');
 }
 @font-face{
   font-family:'MS';font-style:normal;font-weight:400;font-display:block;
-  src:url('https://wheresthetvremote-75b3ea.gitlab.io/fonts/icons.woff2') format('woff2');
+  src:url('https://Im-That-Guy-16.github.io/wheresthetvremote/fonts/icons.woff2') format('woff2');
 }
 
 /* ---------- Design tokens ---------- */
@@ -197,7 +197,7 @@ body#collages .main_column table tr.torrent>td:nth-child(2) b{color:var(--text-3
 #logo{width:auto !important;height:auto !important;order:1;margin-right:14px;display:flex;align-items:center;}
 #logo a{
   display:block;width:272px;height:54px;text-indent:-9999px;overflow:hidden;
-  background:url('https://wheresthetvremote-75b3ea.gitlab.io/assets/logo.png') no-repeat left center;background-size:contain;
+  background:url('https://Im-That-Guy-16.github.io/wheresthetvremote/assets/logo.png') no-repeat left center;background-size:contain;
   filter:drop-shadow(0 4px 18px rgba(31,120,235,.35));
 }
 
@@ -922,7 +922,7 @@ body#forums #content .thin>table:not(.forum_post) td:first-child:empty::before{
   display:inline-block;
   width:18px;
   height:18px;
-  background:url('https://wheresthetvremote-75b3ea.gitlab.io/assets/power.svg') no-repeat center/contain;
+  background:url('https://Im-That-Guy-16.github.io/wheresthetvremote/assets/power.svg') no-repeat center/contain;
   filter:drop-shadow(0 0 6px rgba(63,200,255,.42));
   vertical-align:middle;
 }
