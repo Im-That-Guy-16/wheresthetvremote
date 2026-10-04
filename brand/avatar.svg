@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#f7f7f8"/>
+      <stop offset="1" stop-color="#a7a7ad"/>
+    </linearGradient>
+    <linearGradient id="charcoal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#202228"/>
+      <stop offset="0.58" stop-color="#0d0e12"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee8ff"/>
+      <stop offset="0.44" stop-color="#38c6ff"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="softLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38c6ff" stop-opacity="0"/>
+      <stop offset="0.24" stop-color="#38c6ff" stop-opacity=".72"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="0.76" stop-color="#38c6ff" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#38c6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity=".82"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#38c6ff" flood-opacity=".30"/>
+    </filter>
+    <filter id="blueGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values=".05 0 0 0 .08  0 .70 0 0 .55  0 0 1 0 .98  0 0 0 .76 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="200" height="200" fill="#050507" opacity="0"/>
+
+  <g opacity=".92" filter="url(#shadow)">
+    <path d="M22 59h36c8 0 12-4 18-10l15-13c7-6 15-5 22 1l14 14c7 7 11 8 20 8h31"
+          fill="none" stroke="#2b2e36" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27 148h39c9 0 13-5 20-11l20-17c7-7 16-6 23 1l14 14c7 7 11 11 21 11h11"
+          fill="none" stroke="#3d404a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 59h36c8 0 12-4 18-10l15-13c7-6 15-5 22 1l14 14c7 7 11 8 20 8h31"
+          fill="none" stroke="#38c6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27 148h39c9 0 13-5 20-11l20-17c7-7 16-6 23 1l14 14c7 7 11 11 21 11h11"
+          fill="none" stroke="#6ee8ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
+  </g>
+
+  <g filter="url(#blueGlow)">
+    <circle cx="22" cy="59" r="5.5" fill="url(#accentBlue)"/>
+    <circle cx="178" cy="59" r="5.5" fill="url(#accentBlue)"/>
+    <circle cx="27" cy="148" r="4.5" fill="url(#accentBlue)"/>
+    <circle cx="175" cy="146" r="4.5" fill="#f7f7f8" opacity=".72"/>
+  </g>
+
+  <g transform="translate(50 18)" filter="url(#shadow)">
+    <rect x="0" y="0" width="100" height="72" rx="12" fill="url(#charcoal)" stroke="#6c6c73" stroke-width="4"/>
+    <rect x="12" y="12" width="76" height="44" rx="7" fill="#071019" stroke="#2e3440" stroke-width="2"/>
+    <path d="M50 23v15" stroke="url(#accentBlue)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M37 29a19 19 0 1 0 26 0" fill="none" stroke="url(#accentBlue)" stroke-width="6" stroke-linecap="round"/>
+    <rect x="30" y="62" width="40" height="4" rx="2" fill="#a7a7ad" opacity=".45"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <text x="100" y="116"
+          text-anchor="middle"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="20"
+          font-weight="800"
+          letter-spacing="1"
+          fill="url(#metal)"
+          stroke="#071019"
+          stroke-width="3"
+          paint-order="stroke fill">WHERES THE</text>
+
+    <text x="100" y="159"
+          text-anchor="middle"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="28"
+          font-weight="900"
+          letter-spacing="0"
+          fill="url(#metal)"
+          stroke="#071019"
+          stroke-width="5"
+          paint-order="stroke fill">TV REMOTE</text>
+  </g>
+
+  <rect x="30" y="174" width="140" height="3" rx="1.5" fill="url(#softLine)" opacity=".95"/>
+</svg>

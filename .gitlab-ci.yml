@@ -1,0 +1,23 @@
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - mkdir -p public
+    - cp WheresTheTVRemote.css public/WheresTheTVRemote.css
+    - cp WheresTheTVRemote.user.js public/WheresTheTVRemote.user.js
+    - cp index.html public/index.html
+    - cp README.md public/README.md
+    - cp LICENSE public/LICENSE
+    - cp -R assets public/assets
+    - cp -R fonts public/fonts
+    - cp -R images public/images
+    - cp -R brand public/brand
+    - cp -R screenshots public/screenshots
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

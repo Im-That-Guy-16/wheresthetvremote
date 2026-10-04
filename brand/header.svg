@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2167" height="725" viewBox="0 0 2167 725">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f7f7f8"/>
+      <stop offset="1" stop-color="#a7a7ad"/>
+    </linearGradient>
+    <linearGradient id="charcoal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#202228"/>
+      <stop offset="0.55" stop-color="#0d0e12"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee8ff"/>
+      <stop offset="0.44" stop-color="#38c6ff"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="softLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38c6ff" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#38c6ff" stop-opacity="0.58"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.75" stop-color="#38c6ff" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#38c6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#000000" flood-opacity="0.70"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#38c6ff" flood-opacity="0.28"/>
+    </filter>
+    <filter id="blueGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0.05 0 0 0 0.08  0 0.70 0 0 0.55  0 0 1 0 0.98  0 0 0 0.74 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="whiteEdge" x="-15%" y="-25%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="2" flood-color="#000000" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#ffffff" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="2167" height="725" fill="#050507" opacity="0"/>
+
+  <g opacity="0.94" filter="url(#shadow)">
+    <path d="M168 356 H478 C505 356 518 342 539 326 L704 197 C733 174 767 178 793 206 L933 356 H1114" fill="none" stroke="#2b2e36" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1054 356 H1322 C1352 356 1368 342 1391 322 L1510 218 C1535 196 1572 197 1597 221 L1700 319 C1724 342 1744 356 1776 356 H1990" fill="none" stroke="#2b2e36" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M168 356 H478 C505 356 518 342 539 326 L704 197 C733 174 767 178 793 206 L933 356 H1114" fill="none" stroke="#38c6ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <path d="M1054 356 H1322 C1352 356 1368 342 1391 322 L1510 218 C1535 196 1572 197 1597 221 L1700 319 C1724 342 1744 356 1776 356 H1990" fill="none" stroke="#38c6ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+    <path d="M294 512 H670 C712 512 727 489 758 464 L875 369" fill="none" stroke="#3d404a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1295 514 H1536 C1572 514 1594 496 1619 471 L1711 379" fill="none" stroke="#3d404a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M294 512 H670 C712 512 727 489 758 464 L875 369" fill="none" stroke="#6ee8ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/>
+    <path d="M1295 514 H1536 C1572 514 1594 496 1619 471 L1711 379" fill="none" stroke="#6ee8ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/>
+  </g>
+
+  <g filter="url(#blueGlow)">
+    <circle cx="166" cy="356" r="19" fill="url(#accentBlue)"/>
+    <circle cx="1116" cy="356" r="19" fill="url(#accentBlue)"/>
+    <circle cx="1292" cy="514" r="17" fill="url(#accentBlue)"/>
+    <circle cx="1988" cy="356" r="19" fill="url(#accentBlue)"/>
+    <circle cx="1535" cy="514" r="12" fill="#f7f7f8" opacity="0.72"/>
+  </g>
+
+  <g transform="translate(160 150) rotate(-7)" filter="url(#shadow)">
+    <rect x="0" y="0" width="332" height="248" rx="31" fill="url(#charcoal)" stroke="#6c6c73" stroke-width="8"/>
+    <rect x="28" y="30" width="276" height="154" rx="18" fill="#071019" stroke="#2e3440" stroke-width="5"/>
+    <path d="M166 66 V116" stroke="url(#accentBlue)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M122 88 a62 62 0 1 0 88 0" fill="none" stroke="url(#accentBlue)" stroke-width="18" stroke-linecap="round"/>
+    <rect x="83" y="208" width="166" height="12" rx="6" fill="#a7a7ad" opacity="0.40"/>
+  </g>
+
+  <g transform="translate(1742 154)" filter="url(#shadow)">
+    <rect x="0" y="0" width="314" height="294" rx="31" fill="url(#charcoal)" stroke="#6c6c73" stroke-width="7"/>
+    <rect x="32" y="39" width="250" height="46" rx="12" fill="#17191e"/>
+    <circle cx="59" cy="62" r="12" fill="#38c6ff"/>
+    <circle cx="97" cy="62" r="12" fill="#6ee8ff"/>
+    <circle cx="135" cy="62" r="12" fill="#1f6feb"/>
+    <rect x="33" y="120" width="64" height="38" rx="9" fill="#38c6ff"/>
+    <rect x="33" y="177" width="64" height="38" rx="9" fill="#f7f7f8" opacity="0.82"/>
+    <rect x="33" y="234" width="64" height="38" rx="9" fill="#1f6feb"/>
+    <rect x="120" y="129" width="126" height="17" rx="8" fill="#a7a7ad" opacity="0.55"/>
+    <rect x="120" y="186" width="126" height="17" rx="8" fill="#a7a7ad" opacity="0.42"/>
+    <rect x="120" y="243" width="126" height="17" rx="8" fill="#a7a7ad" opacity="0.35"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <text x="568" y="268"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="156"
+          font-weight="800"
+          letter-spacing="-2"
+          fill="url(#metal)"
+          stroke="#071019"
+          stroke-width="12"
+          paint-order="stroke fill">Wheres The</text>
+
+    <text x="560" y="491"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="176"
+          font-weight="900"
+          letter-spacing="-4"
+          fill="url(#metal)"
+          stroke="#071019"
+          stroke-width="15"
+          paint-order="stroke fill">TV Remote</text>
+  </g>
+
+  <g transform="translate(568 548)" opacity="0.95">
+    <rect x="0" y="0" width="1012" height="5" rx="2.5" fill="url(#softLine)"/>
+    <text x="0" y="54"
+          font-family="Helvetica, Arial, sans-serif"
+          font-size="34"
+          font-weight="700"
+          letter-spacing="8"
+          fill="#a7a7ad"
+          filter="url(#whiteEdge)">DARK WIDESCREEN THEME + ENRICHED TOOLS</text>
+  </g>
+</svg>
